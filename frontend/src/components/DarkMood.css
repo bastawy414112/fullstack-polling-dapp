@@ -1,0 +1,55 @@
+/* ملف darkmode.css */
+.dark-mode {
+  background-color: #121212;
+  color: #eeeeee;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.nav-bar {
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: #80cbc4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* زرار */
+.dark-mode button {
+  background-color: #333333;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode button:hover {
+  background-color: #555555;
+}
+
+/* Inputs & selects */
+.dark-mode input,
+.dark-mode select {
+  background-color: #222222;
+  color: #eeeeee;
+  border: 1px solid #555555;
+  padding: 8px;
+  margin: 5px 0 10px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.dark-mode input::placeholder {
+  color: #999999;
+}
+
+/* Links داخل الـ components ممكن تضيف برضه لو عندك */
